@@ -1,5 +1,7 @@
 package br.com.caelum.estoque.modelo.fault;
 
+import javax.xml.ws.WebFault;
+
 @WebFault(name = "AutorizacaoFault")
 public class AutorizacaoException extends Exception {
 

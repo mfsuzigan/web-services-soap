@@ -1,5 +1,10 @@
 package br.com.caelum.estoque.modelo.ws;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.ws.Endpoint;
+
 import br.com.caelum.estoque.modelo.item.Item;
 
 public class PublicaWebService {

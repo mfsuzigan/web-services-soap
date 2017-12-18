@@ -1,5 +1,11 @@
 package br.com.caelum.estoque.modelo.usuario;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public class TokenDao {
 
 	private static Map<TokenUsuario, Usuario> USUARIOS = new LinkedHashMap<>();

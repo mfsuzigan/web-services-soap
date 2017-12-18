@@ -1,5 +1,7 @@
 package br.com.caelum.estoque.modelo.item;
 
+import javax.xml.bind.annotation.XmlEnumValue;
+
 public enum TipoItem {
 
 	@XmlEnumValue("Livro")

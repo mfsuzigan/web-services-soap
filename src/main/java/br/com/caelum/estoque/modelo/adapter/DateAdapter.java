@@ -1,5 +1,10 @@
 package br.com.caelum.estoque.modelo.adapter;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.xml.bind.annotation.adapters.XmlAdapter;
+
 public class DateAdapter extends XmlAdapter<String, Date> {
 
 	private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");

@@ -1,5 +1,11 @@
 package br.com.caelum.estoque.modelo.fault;
 
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+
 @XmlAccessorType(XmlAccessType.FIELD)
 public class InfoFault implements Serializable {
 

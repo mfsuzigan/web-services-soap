@@ -1,5 +1,13 @@
 package br.com.caelum.estoque.modelo.ws;
 
+import java.util.List;
+
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebResult;
+import javax.jws.WebService;
+import javax.xml.ws.ResponseWrapper;
+
 import br.com.caelum.estoque.modelo.fault.AutorizacaoException;
 import br.com.caelum.estoque.modelo.fault.InfoFault;
 import br.com.caelum.estoque.modelo.item.Filtros;
